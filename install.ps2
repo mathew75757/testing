@@ -1,7 +1,7 @@
 param
 (
     [Parameter(HelpMessage = 'Remove podcasts from homepage.')]
-    [switch]$podcasts_on,
+    [switch]$podcasts_off,
     
     [Parameter(HelpMessage = 'Do not remove podcasts from homepage.')]
     [switch]$podcasts_on,
@@ -10,7 +10,7 @@ param
     [switch]$block_update_on,
     
     [Parameter(HelpMessage = 'Do not block Spotify automatic updates.')]
-    [switch]$block_update_on,
+    [switch]$block_update_off,
     
     [Parameter(HelpMessage = 'Enable clear cache.')]
     [switch]$cache_on,
@@ -52,7 +52,7 @@ param
     [switch]$enhance_playlist_off,
     
     [Parameter(HelpMessage = 'Do not enable enhance liked songs.')]
-    [switch]$enhance_like_on,
+    [switch]$enhance_like_off,
     
     [Parameter(HelpMessage = 'Do not enable new discography on artist.')]
     [switch]$new_artist_pages_off,
